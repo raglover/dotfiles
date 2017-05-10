@@ -80,6 +80,7 @@ export PATH="/usr/local/git/bin:/usr/local/bin:/usr/local/sbin:/sbin:/usr/bin:/b
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias fuck='$(thefuck $(fc -ln -1))'
+alias tmux='tmux -u'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
